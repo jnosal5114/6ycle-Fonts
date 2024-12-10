@@ -1,0 +1,35 @@
+/* CSS for Canva Sans Font */
+
+/* Replace 'your-font-url' with the actual URL where Canva Sans is hosted */
+@font-face {
+  font-family: 'Canva Sans';
+  font-style: normal;
+  font-weight: normal;
+  src: url('https://your-font-host.com/canva-sans.woff2') format('woff2'),
+       url('https://your-font-host.com/canva-sans.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Canva Sans Bold';
+  font-style: normal;
+  font-weight: bold;
+  src: url('https://your-font-host.com/canva-sans-bold.woff2') format('woff2'),
+       url('https://your-font-host.com/canva-sans-bold.woff') format('woff');
+}
+
+body {
+  font-family: 'Canva Sans', Arial, sans-serif;
+  color: #000; /* Black text */
+  background-color: #fff; /* White background */
+}
+
+h1, h2, h3 {
+  font-family: 'Canva Sans Bold', 'Canva Sans', Arial, sans-serif;
+  font-weight: bold;
+}
+
+p {
+  font-family: 'Canva Sans', Arial, sans-serif;
+  font-size: 16px;
+  color: #333; /* Dark gray for normal text */
+}

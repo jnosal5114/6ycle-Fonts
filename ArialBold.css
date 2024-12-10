@@ -1,0 +1,25 @@
+/* CSS for Arial Bold Black Font */
+
+@font-face {
+  font-family: 'Arial Black Bold';
+  font-style: normal;
+  font-weight: bold;
+  src: local('Arial Black'), local('Arial Bold');
+}
+
+body {
+  font-family: 'Arial Black Bold', Arial, sans-serif;
+  color: #000; /* Black text */
+  background-color: #fff; /* White background */
+}
+
+h1, h2, h3 {
+  font-family: 'Arial Black Bold', Arial, sans-serif;
+  font-weight: bold;
+}
+
+p {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #333; /* Darker gray for normal text */
+}
